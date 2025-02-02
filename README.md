@@ -6,14 +6,14 @@ This project can be used for pets and livestock alike.
 # Requirements
 - Must have a RFID-RC522 sensor connected to a raspberry pi.
   Wiring setup:
-    3.3 RFID -> pin 17 Raspberry Pi
-    RST RFID -> pin 22 Raspberry Pi red
-    GND RFID -> pin 25 Raspberry Pi
-    RG RFID -> skip, do not attach to anything
-    MISO RFID -> pin 21 Raspberry Pi
-    MOSI RFID -> pin 19 Raspberry Pi
-    SCK RFID -> pin 23 Raspberry Pi
-    SDA RFID -> pin 24 Raspberry Pi
+    - 3.3 RFID -> pin 17 Raspberry Pi
+    - RST RFID -> pin 22 Raspberry Pi red
+    - GND RFID -> pin 25 Raspberry Pi
+    - RG RFID -> skip, do not attach to anything
+    - MISO RFID -> pin 21 Raspberry Pi
+    - MOSI RFID -> pin 19 Raspberry Pi
+    - SCK RFID -> pin 23 Raspberry Pi
+    - SDA RFID -> pin 24 Raspberry Pi
   Note:
     We used a breadboard to handle the connections on the RFID sensor side of things, and sottering the pins to the sensor before putting it in the breadboard was required. The connection was not stable enough otherwise.
 - Must have a rasberry pi connected to a monitor, keyboard and mouse
