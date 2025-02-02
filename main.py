@@ -75,4 +75,9 @@ try:
       body = "Hello!\n" + a_name + " just ate at your food dish.\nHere is the information on file about your animal:\n\tName - "+ a_name + "\n\tSpecies - " + a_species
       send_email(a_email, subject, body)
 
-sleep(5)
+    sleep(5)
+
+except KeyboardInterrupt:
+  print("stopping")
+  GPIO.cleanup()
+  raise
